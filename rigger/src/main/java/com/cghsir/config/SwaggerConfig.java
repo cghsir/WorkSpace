@@ -25,7 +25,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("wang.raye.springboot"))
+                .apis(RequestHandlerSelectors.basePackage("com.cghsir.module"))
                 .paths(PathSelectors.any()).build();
     }
 

@@ -40,7 +40,7 @@
         </sqlMapGenerator>
 
         <!-- 自动生成mapper接口, 可以是 ANNOTATEDMAPPER(注解), XMLMAPPER(xml), MIXEDMAPPER(不知道) -->
-        <javaClientGenerator type="XMLMAPPER"
+        <javaClientGenerator type="ANNOTATEDMAPPER"
                              targetPackage="com.cghsir.mapper"
                              targetProject="${entity.target.dir}">
             <property name="enableSubPackages" value="true"/>

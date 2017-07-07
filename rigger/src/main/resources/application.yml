@@ -19,6 +19,8 @@ spring:
           test-while-idle: true
           test-on-borrow: false
           test-on-return: false
-
+#mybatis:
+#  mapperLocations: classpath:sql-mapper/*.xml
+#  typeAliasesPackage: com.cghsir.model
 
 debug: false
