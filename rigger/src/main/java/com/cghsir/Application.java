@@ -9,7 +9,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
  * 项目运行主入口
  * Created by cghsir on 2017/7/6.
  */
-@MapperScan("com.cghsir.model.mapper")//扫描mybatis mpper文件
+@MapperScan("com.cghsir.mapper")//扫描mybatis mpper文件
 @SpringBootApplication
 @ServletComponentScan//扫描主类下的Servlet
 public class Application {
